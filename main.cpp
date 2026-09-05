@@ -1,3 +1,19 @@
+/*#include <Arduino.h>
+
+void setup() {
+  // Initialize the built-in LED pin as an output
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  // Turn the LED on (HIGH voltage level)
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); // Wait for a second
+  
+  // Turn the LED off by making the voltage LOW
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000); // Wait for a second
+}*/
 #include <Arduino.h>
 #include <Arduino_FreeRTOS.h>
 #include <queue.h>
